@@ -1,0 +1,23 @@
+# Editor / OS
+*~
+*.swp
+*.swo
+.DS_Store
+.idea/
+.vscode/
+*.code-workspace
+
+# Build / packaging leftovers
+*.plasmoid
+*.tar
+*.tar.gz
+*.zip
+build/
+dist/
+
+# Local install mirror (if someone copies the live package back)
+.local/
+
+# Claude / tooling
+.claude/
+*.log

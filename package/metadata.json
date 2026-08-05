@@ -1,0 +1,28 @@
+{
+    "KPackageStructure": "Plasma/Wallpaper",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "rhedar@localhost",
+                "Name": "RhedarLiu"
+            }
+        ],
+        "Category": "",
+        "Description": "Different wallpaper images for each virtual desktop",
+        "Description[zh_CN]": "为每个虚拟桌面设置不同的壁纸图片",
+        "Icon": "preferences-desktop-virtual",
+        "Id": "org.kde.plasma.virtualdesktopwallpaper",
+        "License": "GPL-2.0+",
+        "Name": "Virtual Desktop Wallpaper",
+        "Name[zh_CN]": "虚拟桌面壁纸",
+        "ServiceTypes": [
+            "Plasma/Wallpaper"
+        ],
+        "Version": "1.0.0",
+        "Website": "https://github.com/RhedarLiu/virtual-desktop-wallpaper"
+    },
+    "X-KDE-ParentApp": "org.kde.plasmashell",
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "Keywords": "wallpaper;virtual desktop;desktop",
+    "MimeType": "image/avif;image/gif;image/heif;image/jpeg;image/png;image/svg+xml;image/svg+xml-compressed;image/bmp;image/webp;image/tiff;"
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    SPDX-FileCopyrightText: 2026 Rhedar
+    SPDX-License-Identifier: GPL-2.0-or-later
+-->
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+  <kcfgfile name=""/>
+
+  <group name="General">
+    <!--
+      Wallpaper image path for each virtual desktop.
+      Index 0 → Desktop 1, index 1 → Desktop 2, …
+      Stored as a StringList so the number of desktops can grow dynamically.
+    -->
+    <entry name="WallpaperPaths" type="StringList">
+      <label>Wallpaper image path per virtual desktop</label>
+      <default></default>
+    </entry>
+
+    <!-- Fill mode for Image (QtQuick.Image.fillMode enum values) -->
+    <entry name="FillMode" type="int">
+      <label>Sizing, cropping and positioning of the wallpaper image</label>
+      <!-- Image.PreserveAspectCrop == 2 -->
+      <default>2</default>
+    </entry>
+
+    <!-- Fallback solid color when no image is set for the current desktop -->
+    <entry name="BackgroundColor" type="Color">
+      <label>Background color used when no image is selected</label>
+      <default>#1d99f3</default>
+    </entry>
+
+    <!-- Smooth cross-fade duration in milliseconds when switching desktops -->
+    <entry name="TransitionDuration" type="int">
+      <label>Cross-fade duration when switching virtual desktops (ms)</label>
+      <default>300</default>
+    </entry>
+  </group>
+</kcfg>
