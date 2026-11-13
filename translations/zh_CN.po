@@ -1,0 +1,94 @@
+# Simplified Chinese translations for Virtual Desktop Wallpaper.
+# SPDX-FileCopyrightText: 2026 Rhedar
+# SPDX-License-Identifier: GPL-2.0-or-later
+msgid ""
+msgstr ""
+"Project-Id-Version: virtual-desktop-wallpaper 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/RhedarLiu/virtual-desktop-wallpaper/"
+"issues\n"
+"POT-Creation-Date: 2026-11-13 10:26+0100\n"
+"PO-Revision-Date: 2026-11-13 00:00+0100\n"
+"Last-Translator: Rhedar\n"
+"Language-Team: Simplified Chinese\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: package/contents/ui/main.qml:49 package/contents/ui/config.qml:77
+msgid "Desktop %1"
+msgstr "桌面 %1"
+
+#: package/contents/ui/config.qml:204
+msgid "No image selected"
+msgstr "未选择图片"
+
+#: package/contents/ui/config.qml:215
+msgid "Choose…"
+msgstr "选择…"
+
+#: package/contents/ui/config.qml:219
+msgid "Choose a wallpaper image for this virtual desktop"
+msgstr "为该虚拟桌面选择壁纸图片"
+
+#: package/contents/ui/config.qml:242
+msgid "Clear"
+msgstr "清除"
+
+#: package/contents/ui/config.qml:258
+msgid "Position:"
+msgstr "位置："
+
+#: package/contents/ui/config.qml:262
+msgid "Scale and Crop"
+msgstr "缩放并裁剪"
+
+#: package/contents/ui/config.qml:267
+msgid "Stretch"
+msgstr "拉伸"
+
+#: package/contents/ui/config.qml:272
+msgid "Scale, Keep Proportions"
+msgstr "缩放，保持比例"
+
+#: package/contents/ui/config.qml:277
+msgid "Center"
+msgstr "居中"
+
+#: package/contents/ui/config.qml:282
+msgid "Tile"
+msgstr "平铺"
+
+#: package/contents/ui/config.qml:302
+msgid "Background color:"
+msgstr "背景颜色："
+
+#: package/contents/ui/config.qml:305
+msgid "Choose Background Color"
+msgstr "选择背景颜色"
+
+#: package/contents/ui/config.qml:312
+msgid "Transition duration (ms):"
+msgstr "切换动画 (毫秒)："
+
+#: package/contents/ui/config.qml:327
+msgid ""
+"Tip: Switch virtual desktops (Meta+F1 / Meta+F2 or the pager) to see the "
+"wallpaper change. You can also drag an image onto the desktop to set the "
+"wallpaper for the current desktop."
+msgstr ""
+"提示：切换虚拟桌面（Meta+F1 / Meta+F2 或分页器）即可看到壁纸变化。也可以把图"
+"片拖到桌面上，为当前桌面设置壁纸。"
+
+#: package/contents/ui/config.qml:335
+msgid "Open Image"
+msgstr "打开图片"
+
+#: package/contents/ui/config.qml:345
+msgid "Image files"
+msgstr "图片文件"
+
+#: package/contents/ui/config.qml:347
+msgid "All files"
+msgstr "所有文件"

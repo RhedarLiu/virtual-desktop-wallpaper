@@ -1,0 +1,94 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Rhedar
+# This file is distributed under the same license as the virtual-desktop-wallpaper package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: virtual-desktop-wallpaper 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/RhedarLiu/virtual-desktop-wallpaper/"
+"issues\n"
+"POT-Creation-Date: 2026-11-13 10:26+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: package/contents/ui/main.qml:49 package/contents/ui/config.qml:77
+msgid "Desktop %1"
+msgstr ""
+
+#: package/contents/ui/config.qml:204
+msgid "No image selected"
+msgstr ""
+
+#: package/contents/ui/config.qml:215
+msgid "Choose…"
+msgstr ""
+
+#: package/contents/ui/config.qml:219
+msgid "Choose a wallpaper image for this virtual desktop"
+msgstr ""
+
+#: package/contents/ui/config.qml:242
+msgid "Clear"
+msgstr ""
+
+#: package/contents/ui/config.qml:258
+msgid "Position:"
+msgstr ""
+
+#: package/contents/ui/config.qml:262
+msgid "Scale and Crop"
+msgstr ""
+
+#: package/contents/ui/config.qml:267
+msgid "Stretch"
+msgstr ""
+
+#: package/contents/ui/config.qml:272
+msgid "Scale, Keep Proportions"
+msgstr ""
+
+#: package/contents/ui/config.qml:277
+msgid "Center"
+msgstr ""
+
+#: package/contents/ui/config.qml:282
+msgid "Tile"
+msgstr ""
+
+#: package/contents/ui/config.qml:302
+msgid "Background color:"
+msgstr ""
+
+#: package/contents/ui/config.qml:305
+msgid "Choose Background Color"
+msgstr ""
+
+#: package/contents/ui/config.qml:312
+msgid "Transition duration (ms):"
+msgstr ""
+
+#: package/contents/ui/config.qml:327
+msgid ""
+"Tip: Switch virtual desktops (Meta+F1 / Meta+F2 or the pager) to see the "
+"wallpaper change. You can also drag an image onto the desktop to set the "
+"wallpaper for the current desktop."
+msgstr ""
+
+#: package/contents/ui/config.qml:335
+msgid "Open Image"
+msgstr ""
+
+#: package/contents/ui/config.qml:345
+msgid "Image files"
+msgstr ""
+
+#: package/contents/ui/config.qml:347
+msgid "All files"
+msgstr ""
