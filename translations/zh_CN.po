@@ -6,7 +6,7 @@ msgstr ""
 "Project-Id-Version: virtual-desktop-wallpaper 1.0.0\n"
 "Report-Msgid-Bugs-To: https://github.com/RhedarLiu/virtual-desktop-wallpaper/"
 "issues\n"
-"POT-Creation-Date: 2026-11-13 10:26+0100\n"
+"POT-Creation-Date: 2026-11-26 22:18+0800\n"
 "PO-Revision-Date: 2026-11-13 00:00+0100\n"
 "Last-Translator: Rhedar\n"
 "Language-Team: Simplified Chinese\n"
@@ -17,62 +17,77 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: package/contents/ui/main.qml:49 package/contents/ui/config.qml:77
+#, kde-format
 msgid "Desktop %1"
 msgstr "桌面 %1"
 
 #: package/contents/ui/config.qml:204
+#, kde-format
 msgid "No image selected"
 msgstr "未选择图片"
 
 #: package/contents/ui/config.qml:215
+#, kde-format
 msgid "Choose…"
 msgstr "选择…"
 
 #: package/contents/ui/config.qml:219
+#, kde-format
 msgid "Choose a wallpaper image for this virtual desktop"
 msgstr "为该虚拟桌面选择壁纸图片"
 
 #: package/contents/ui/config.qml:242
+#, kde-format
 msgid "Clear"
 msgstr "清除"
 
 #: package/contents/ui/config.qml:258
+#, kde-format
 msgid "Position:"
 msgstr "位置："
 
 #: package/contents/ui/config.qml:262
+#, kde-format
 msgid "Scale and Crop"
 msgstr "缩放并裁剪"
 
 #: package/contents/ui/config.qml:267
+#, kde-format
 msgid "Stretch"
 msgstr "拉伸"
 
 #: package/contents/ui/config.qml:272
+#, kde-format
 msgid "Scale, Keep Proportions"
 msgstr "缩放，保持比例"
 
 #: package/contents/ui/config.qml:277
+#, kde-format
 msgid "Center"
 msgstr "居中"
 
 #: package/contents/ui/config.qml:282
+#, kde-format
 msgid "Tile"
 msgstr "平铺"
 
 #: package/contents/ui/config.qml:302
+#, kde-format
 msgid "Background color:"
 msgstr "背景颜色："
 
 #: package/contents/ui/config.qml:305
+#, kde-format
 msgid "Choose Background Color"
 msgstr "选择背景颜色"
 
 #: package/contents/ui/config.qml:312
+#, kde-format
 msgid "Transition duration (ms):"
 msgstr "切换动画 (毫秒)："
 
 #: package/contents/ui/config.qml:327
+#, kde-format
 msgid ""
 "Tip: Switch virtual desktops (Meta+F1 / Meta+F2 or the pager) to see the "
 "wallpaper change. You can also drag an image onto the desktop to set the "
@@ -82,13 +97,16 @@ msgstr ""
 "片拖到桌面上，为当前桌面设置壁纸。"
 
 #: package/contents/ui/config.qml:335
+#, kde-format
 msgid "Open Image"
 msgstr "打开图片"
 
 #: package/contents/ui/config.qml:345
+#, kde-format
 msgid "Image files"
 msgstr "图片文件"
 
 #: package/contents/ui/config.qml:347
+#, kde-format
 msgid "All files"
 msgstr "所有文件"

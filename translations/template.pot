@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: virtual-desktop-wallpaper 1.0.0\n"
 "Report-Msgid-Bugs-To: https://github.com/RhedarLiu/virtual-desktop-wallpaper/"
 "issues\n"
-"POT-Creation-Date: 2026-11-13 10:26+0100\n"
+"POT-Creation-Date: 2026-11-26 22:18+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,62 +19,77 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: package/contents/ui/main.qml:49 package/contents/ui/config.qml:77
+#, kde-format
 msgid "Desktop %1"
 msgstr ""
 
 #: package/contents/ui/config.qml:204
+#, kde-format
 msgid "No image selected"
 msgstr ""
 
 #: package/contents/ui/config.qml:215
+#, kde-format
 msgid "Choose…"
 msgstr ""
 
 #: package/contents/ui/config.qml:219
+#, kde-format
 msgid "Choose a wallpaper image for this virtual desktop"
 msgstr ""
 
 #: package/contents/ui/config.qml:242
+#, kde-format
 msgid "Clear"
 msgstr ""
 
 #: package/contents/ui/config.qml:258
+#, kde-format
 msgid "Position:"
 msgstr ""
 
 #: package/contents/ui/config.qml:262
+#, kde-format
 msgid "Scale and Crop"
 msgstr ""
 
 #: package/contents/ui/config.qml:267
+#, kde-format
 msgid "Stretch"
 msgstr ""
 
 #: package/contents/ui/config.qml:272
+#, kde-format
 msgid "Scale, Keep Proportions"
 msgstr ""
 
 #: package/contents/ui/config.qml:277
+#, kde-format
 msgid "Center"
 msgstr ""
 
 #: package/contents/ui/config.qml:282
+#, kde-format
 msgid "Tile"
 msgstr ""
 
 #: package/contents/ui/config.qml:302
+#, kde-format
 msgid "Background color:"
 msgstr ""
 
 #: package/contents/ui/config.qml:305
+#, kde-format
 msgid "Choose Background Color"
 msgstr ""
 
 #: package/contents/ui/config.qml:312
+#, kde-format
 msgid "Transition duration (ms):"
 msgstr ""
 
 #: package/contents/ui/config.qml:327
+#, kde-format
 msgid ""
 "Tip: Switch virtual desktops (Meta+F1 / Meta+F2 or the pager) to see the "
 "wallpaper change. You can also drag an image onto the desktop to set the "
@@ -82,13 +97,16 @@ msgid ""
 msgstr ""
 
 #: package/contents/ui/config.qml:335
+#, kde-format
 msgid "Open Image"
 msgstr ""
 
 #: package/contents/ui/config.qml:345
+#, kde-format
 msgid "Image files"
 msgstr ""
 
 #: package/contents/ui/config.qml:347
+#, kde-format
 msgid "All files"
 msgstr ""
