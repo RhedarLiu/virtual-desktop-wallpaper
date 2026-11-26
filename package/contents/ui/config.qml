@@ -74,7 +74,7 @@ ColumnLayout {
             const name = (i < names.length && names[i])
                 ? names[i]
                 : i18nd("plasma_wallpaper_org.kde.plasma.virtualdesktopwallpaper",
-                        "桌面 %1", i + 1);
+                        "Desktop %1", i + 1);
             result.push({
                 index: i,
                 number: i + 1,
@@ -201,7 +201,7 @@ ColumnLayout {
                     text: root.fileNameOf(modelData.path)
                     placeholderText: i18nd(
                         "plasma_wallpaper_org.kde.plasma.virtualdesktopwallpaper",
-                        "未选择图片")
+                        "No image selected")
                     QQC2.ToolTip.visible: hovered && modelData.path.length > 0
                     QQC2.ToolTip.text: modelData.path
                     QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
@@ -212,11 +212,11 @@ ColumnLayout {
                     Layout.minimumWidth: implicitWidth
                     text: i18nd(
                         "plasma_wallpaper_org.kde.plasma.virtualdesktopwallpaper",
-                        "选择…")
+                        "Choose…")
                     icon.name: "document-open-folder"
                     QQC2.ToolTip.text: i18nd(
                         "plasma_wallpaper_org.kde.plasma.virtualdesktopwallpaper",
-                        "为该虚拟桌面选择壁纸图片")
+                        "Choose a wallpaper image for this virtual desktop")
                     QQC2.ToolTip.visible: hovered
                     QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
                     onClicked: {
@@ -239,7 +239,7 @@ ColumnLayout {
                     enabled: modelData.path && modelData.path.length > 0
                     QQC2.ToolTip.text: i18nd(
                         "plasma_wallpaper_org.kde.plasma.virtualdesktopwallpaper",
-                        "清除")
+                        "Clear")
                     QQC2.ToolTip.visible: hovered
                     QQC2.ToolTip.delay: Kirigami.Units.toolTipDelay
                     onClicked: root.clearWallpaperPath(modelData.index)
@@ -255,31 +255,31 @@ ColumnLayout {
             id: fillModeCombo
             Kirigami.FormData.label: i18nd(
                 "plasma_wallpaper_org.kde.plasma.virtualdesktopwallpaper",
-                "位置：")
+                "Position:")
             model: [
                 {
                     label: i18nd("plasma_wallpaper_org.kde.plasma.virtualdesktopwallpaper",
-                                 "缩放并裁剪"),
+                                 "Scale and Crop"),
                     value: Image.PreserveAspectCrop
                 },
                 {
                     label: i18nd("plasma_wallpaper_org.kde.plasma.virtualdesktopwallpaper",
-                                 "拉伸"),
+                                 "Stretch"),
                     value: Image.Stretch
                 },
                 {
                     label: i18nd("plasma_wallpaper_org.kde.plasma.virtualdesktopwallpaper",
-                                 "缩放，保持比例"),
+                                 "Scale, Keep Proportions"),
                     value: Image.PreserveAspectFit
                 },
                 {
                     label: i18nd("plasma_wallpaper_org.kde.plasma.virtualdesktopwallpaper",
-                                 "居中"),
+                                 "Center"),
                     value: Image.Pad
                 },
                 {
                     label: i18nd("plasma_wallpaper_org.kde.plasma.virtualdesktopwallpaper",
-                                 "平铺"),
+                                 "Tile"),
                     value: Image.Tile
                 }
             ]
@@ -299,17 +299,17 @@ ColumnLayout {
             id: backgroundColorButton
             Kirigami.FormData.label: i18nd(
                 "plasma_wallpaper_org.kde.plasma.virtualdesktopwallpaper",
-                "背景颜色：")
+                "Background color:")
             dialogTitle: i18nd(
                 "plasma_wallpaper_org.kde.plasma.virtualdesktopwallpaper",
-                "选择背景颜色")
+                "Choose Background Color")
         }
 
         QQC2.SpinBox {
             id: transitionSpin
             Kirigami.FormData.label: i18nd(
                 "plasma_wallpaper_org.kde.plasma.virtualdesktopwallpaper",
-                "切换动画 (毫秒)：")
+                "Transition duration (ms):")
             from: 0
             to: 5000
             stepSize: 50
@@ -324,7 +324,7 @@ ColumnLayout {
             opacity: 0.7
             text: i18nd(
                 "plasma_wallpaper_org.kde.plasma.virtualdesktopwallpaper",
-                "提示：切换虚拟桌面（Meta+F1 / Meta+F2 或分页器）即可看到壁纸变化。也可以把图片拖到桌面上，为当前桌面设置壁纸。")
+                "Tip: Switch virtual desktops (Meta+F1 / Meta+F2 or the pager) to see the wallpaper change. You can also drag an image onto the desktop to set the wallpaper for the current desktop.")
         }
     }
 
@@ -332,7 +332,7 @@ ColumnLayout {
         id: fileDialog
         title: i18nd(
             "plasma_wallpaper_org.kde.plasma.virtualdesktopwallpaper",
-            "打开图片")
+            "Open Image")
         currentFolder: {
             const pics = StandardPaths.standardLocations(StandardPaths.PicturesLocation);
             if (pics.length > 0) {
@@ -342,9 +342,9 @@ ColumnLayout {
         }
         nameFilters: [
             i18nd("plasma_wallpaper_org.kde.plasma.virtualdesktopwallpaper",
-                  "图片文件") + " (*.jpg *.jpeg *.png *.bmp *.webp *.tiff *.tif *.svg *.svgz *.avif *.heif *.heic *.gif)",
+                  "Image files") + " (*.jpg *.jpeg *.png *.bmp *.webp *.tiff *.tif *.svg *.svgz *.avif *.heif *.heic *.gif)",
             i18nd("plasma_wallpaper_org.kde.plasma.virtualdesktopwallpaper",
-                  "所有文件") + " (*)"
+                  "All files") + " (*)"
         ]
         fileMode: FileDialog.OpenFile
         options: FileDialog.ReadOnly

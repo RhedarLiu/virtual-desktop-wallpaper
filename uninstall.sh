@@ -3,7 +3,15 @@
 set -euo pipefail
 
 PLUGIN_ID="org.kde.plasma.virtualdesktopwallpaper"
-DEST="${XDG_DATA_HOME:-$HOME/.local/share}/plasma/wallpapers/${PLUGIN_ID}"
+DATA_DIR="${XDG_DATA_HOME:-$HOME/.local/share}"
+DEST="${DATA_DIR}/plasma/wallpapers/${PLUGIN_ID}"
+DOMAIN="plasma_wallpaper_${PLUGIN_ID}"
+
+# Remove only this plugin's catalogs; leave other applications' locales intact.
+for catalog in "${DATA_DIR}"/locale/*/LC_MESSAGES/"${DOMAIN}.mo"; do
+    [[ -f "${catalog}" ]] || continue
+    rm -f "${catalog}"
+done
 
 if [[ -d "${DEST}" ]]; then
     rm -rf "${DEST}"
